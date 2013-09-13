@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{69B3599F-6C71-4CC0-940D-3F7E22CAA1E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "ssistest\Scripts.csproj", "{D61AEC95-826B-4CF2-8F59-D18D8D816598}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{2A56C227-91F9-4D59-84C7-51CA53499BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "scripts\Scripts.csproj", "{DB9247FB-D80E-4E36-A5C0-27AAF919ED6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61AEC95-826B-4CF2-8F59-D18D8D816598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61AEC95-826B-4CF2-8F59-D18D8D816598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61AEC95-826B-4CF2-8F59-D18D8D816598}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61AEC95-826B-4CF2-8F59-D18D8D816598}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{D61AEC95-826B-4CF2-8F59-D18D8D816598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61AEC95-826B-4CF2-8F59-D18D8D816598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9247FB-D80E-4E36-A5C0-27AAF919ED6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9247FB-D80E-4E36-A5C0-27AAF919ED6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9247FB-D80E-4E36-A5C0-27AAF919ED6C}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9247FB-D80E-4E36-A5C0-27AAF919ED6C}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{DB9247FB-D80E-4E36-A5C0-27AAF919ED6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9247FB-D80E-4E36-A5C0-27AAF919ED6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D61AEC95-826B-4CF2-8F59-D18D8D816598} = {69B3599F-6C71-4CC0-940D-3F7E22CAA1E2}
+		{DB9247FB-D80E-4E36-A5C0-27AAF919ED6C} = {2A56C227-91F9-4D59-84C7-51CA53499BDC}
+	EndGlobalSection
+EndGlobal
