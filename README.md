@@ -1,7 +1,7 @@
-FlexiFileReaderTask
+FileTask-Adapter
 ===================
 
-SQL Server Integration Service Custom Task for handling files
+SQL Server Integration Service Custom Task which will act as an adapter for File Task
 
 The project shall be carried out in three iterations
 
