@@ -17,3 +17,4 @@ C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\scrip
 C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\scripts\obj\Debug\Scripts.csproj.GenerateResource.Cache
 C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\scripts\obj\Debug\scripts.dll
 C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\scripts\obj\Debug\scripts.pdb
+C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\scripts\obj\Debug\Scripts.csprojResolveAssemblyReference.cache

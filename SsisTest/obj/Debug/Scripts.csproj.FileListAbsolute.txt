@@ -28,3 +28,4 @@ C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\ssist
 C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\ssistest\obj\Debug\Scripts.csprojResolveAssemblyReference.cache
 C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\ssistest\obj\Debug\ssistest.dll
 C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\ssistest\obj\Debug\ssistest.pdb
+C:\Users\akarkal\Documents\CollegiateLink\worlddomination\FileTask-Adapter\ssistest\bin\Debug\ssistest.dll.config

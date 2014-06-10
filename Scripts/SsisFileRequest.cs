@@ -15,12 +15,12 @@
             _fileHeader = fileHeader;
         }
 
-        public string GetInputFile()
+        public string GetInputFilePath()
         {
             return _input;
         }
 
-        public string GetOutputFile()
+        public string GetOutputFilePath()
         {
             return _output;
         }

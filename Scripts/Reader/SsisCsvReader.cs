@@ -6,15 +6,15 @@ using Scripts.Validators;
 
 namespace Scripts.Reader
 {
-    public class SsisSsisCsvReader : ISsisCsvReader
+    public class SsisCsvReader : ISsisCsvReader
     {
+        private const string ColumnDelimiter = ",";
+
         private readonly IValidator _validator;
 
         private readonly IHeaderBuilder _builder;
-
-        private readonly string ColumnDelimiter = ",";
  
-        public SsisSsisCsvReader(IValidator validator, IHeaderBuilder builder)
+        public SsisCsvReader(IValidator validator, IHeaderBuilder builder)
         {
             _validator = validator;
             _builder = builder;
@@ -27,7 +27,7 @@ namespace Scripts.Reader
             var header = _builder.Build(request);
             
             var reader = new CsvReader(
-                new StreamReader(request.GetInputFile()),
+                new StreamReader(request.GetInputFilePath()),
                 new CsvConfiguration
                     {
                         Delimiter = ColumnDelimiter, 

@@ -2,9 +2,9 @@
 {
     public interface ISsisFileRequest
     {
-        string GetInputFile();
+        string GetInputFilePath();
         
-        string GetOutputFile();
+        string GetOutputFilePath();
         
         string GetFileHeader();
 

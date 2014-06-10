@@ -35,7 +35,7 @@ namespace SsisTest
         [ExpectedException(typeof(ArgumentNullException))]
         public void ShouldThowExceptionWhenInputFileIsEmpty()
         {
-            _mockFileProperties.Setup(x => x.GetInputFile()).Returns((string)null);
+            _mockFileProperties.Setup(x => x.GetInputFilePath()).Returns((string)null);
 
             _validator.Validate(_mockFileProperties.Object);
         }
@@ -44,7 +44,7 @@ namespace SsisTest
         [ExpectedException(typeof(ArgumentNullException))]
         public void ShouldThrowExceptionWhenOutputFileIsEmpty()
         {
-            _mockFileProperties.Setup(x => x.GetInputFile()).Returns((string)null);
+            _mockFileProperties.Setup(x => x.GetInputFilePath()).Returns((string)null);
 
             _validator.Validate(_mockFileProperties.Object);
         }

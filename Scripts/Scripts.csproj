@@ -33,6 +33,7 @@
     <Reference Include="CsvHelper">
       <HintPath>..\packages\CsvHelper.2.2.2\lib\net40-client\CsvHelper.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,7 +46,8 @@
     <Compile Include="Builder\HeaderBuilder.cs" />
     <Compile Include="Builder\IHeaderBuilder.cs" />
     <Compile Include="HeaderRecord.cs" />
-    <Compile Include="Reader\SsisSsisCsvReader.cs" />
+    <Compile Include="Reader\ColumnReader.cs" />
+    <Compile Include="Reader\SsisCsvReader.cs" />
     <Compile Include="Reader\FileType.cs" />
     <Compile Include="Reader\ISsisCsvReader.cs" />
     <Compile Include="SsisFileRequest.cs" />
@@ -69,7 +71,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

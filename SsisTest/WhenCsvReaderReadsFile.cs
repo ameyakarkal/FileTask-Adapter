@@ -26,8 +26,13 @@ namespace SsisTest
         public void SetUp()
         {
             SimpleFileAbsoluteInputPath = Path.GetFullPath(@"..\..\Files\SimpleInputFile.txt");
-            
-            SimpleFileAbsoluteOutputPath = Path.Combine(Path.GetDirectoryName(SimpleFileAbsoluteInputPath), "SimpleOutputFile.txt");
+
+            var directoryPath = Path.GetDirectoryName(SimpleFileAbsoluteInputPath);
+
+            if (string.IsNullOrEmpty(directoryPath)) 
+                throw new Exception("There is an issue with the input file directory");
+
+            SimpleFileAbsoluteOutputPath = Path.Combine(directoryPath, "SimpleOutputFile.txt");
 
             var mockValidator = new Mock<IValidator>();
             
@@ -35,7 +40,7 @@ namespace SsisTest
 
             var mockHeaderBuilder = new Mock<IHeaderBuilder>();
 
-            Reader = new SsisSsisCsvReader(mockValidator.Object, mockHeaderBuilder.Object);
+            Reader = new SsisCsvReader(mockValidator.Object, mockHeaderBuilder.Object);
         }
 
         [Test]
